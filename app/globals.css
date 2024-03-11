@@ -18,12 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(122deg, rgba(217,234,250,1) 30%, rgba(170,207,244,0.7371323529411764) 100%);
 }
 
 @layer utilities {
