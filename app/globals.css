@@ -18,7 +18,19 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(122deg, rgba(217,234,250,1) 30%, rgba(170,207,244,0.7371323529411764) 100%);
+  background: linear-gradient(
+    122deg,
+    rgba(217, 234, 250, 1) 30%,
+    rgba(170, 207, 244, 0.7371323529411764) 100%
+  );
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.6px);
+  -webkit-backdrop-filter: blur(1.6px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
 @layer utilities {
