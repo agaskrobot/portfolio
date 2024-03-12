@@ -1,17 +1,15 @@
 import Link from "next/link";
 import { Card } from "./Card";
+import { Photo } from "./Photo";
 
 export const AboutMe = () => (
   <Card>
-    <div
-      className="bg-cover bg-center w-64 h-64 rounded-full float-right"
-      style={{ backgroundImage: `url(/image.png)` }}
-    />
+    <Photo />
     <h1 className="font-bold text-4xl mb-3">Hi, I&apos;m Aga Skrobot</h1>
-    <span className="text-gray-500">
+    <span className="text-gray-500 dark:text-gray-300">
       I&apos;m based in
       <Link
-        className="underline text-gray-800 ml-2"
+        className="underline text-gray-800 dark:text-gray-200 ml-2"
         target="_blank"
         href="https://maps.app.goo.gl/iqr2pMiYveyCsZY56"
       >
