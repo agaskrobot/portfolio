@@ -1,5 +1,8 @@
 # Portfolio
 
+![image](https://github.com/agaskrobot/portfolio/assets/11446164/7c191fca-85c0-4f99-aac3-df4a1448cdc7)
+
+
 This is a portfolio page created using `create-next-app` with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
