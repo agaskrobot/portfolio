@@ -17,8 +17,14 @@ export const AboutMe = () => (
       </Link>
     </span>
     <p className="mt-5">
-      I am a Software Engineer with over 6 years of expertise in React.js and
-      more than 2 years of dedicated experience in the blockchain space.
+      I&apos;m a Software Engineer with over six years of experience in React.js
+      and more than 2 years of dedicated experience in the blockchain space.
+    </p>
+    <p className="mt-5">
+      Right now, I&apos;m delving into Rust, exploring its potential for writing
+      smart contracts alongside my existing skills in Solidity. I&apos;m super
+      excited about the possibilities this brings and the chance to keep pushing
+      the boundaries in the blockchain space.
     </p>
     <p className="mt-5">
       I am highly motivated and possess a strong passion for exploring new
