@@ -15,7 +15,7 @@ export const Logo = () => {
         priority
       />
       <p className="hidden md:flex ml-4 bg-slate-50 dark:bg-slate-600 py-2 pl-3 pr-12 rounded-r-full">
-        Aga Skrobot
+        agaskrobot
       </p>
     </a>
   );
